@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <>
       <Hero/>
-     <div className='bg-yellow-500'>
+     <div className='bg-gray-700'>
       <Card/>
      </div>
     </>

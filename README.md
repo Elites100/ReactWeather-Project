@@ -1,8 +1,35 @@
-# React + Vite
+# Weather Wave (VITE + REACTS) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Introduction](#introduction)
+- [Overview](#overview)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Introduction
+
+Weather Wave is a web application that provides users with accurate weather reports from any specific country, including forecasts of future days and air quality reports. 
+
+## Overview
+
+This project revolves around learning and implementing concepts from REACT.JS to become familiar with incorporating react router dom and using API calls to retrieve Weather Data.
+
+The web application contains the Home, Weather, and Air Quality pages built up from the components folder to implement the practice of REACTS structure; Furthermore, a summary of each page consists of the home page contains a navigation header link to the other pages and a preview of weather reports in specific locations around the world. The weather page allows users to specify what country/city weather data and forecast information they would like. The air quality page allows users to be able to specify what country/city air pollution/quality chart of all the element's data 
+## Usage
+
+To interact with the assignment files, the following steps are:
+
+1. the `/src` folder contains the main files.
+2. Install all the required dependencies using a package manager like npm or yarn
+3. Start the development server to run the application (run npm start or yarn start)
+
+## Folder Structure
+
+- `/src`: Contains the important web application files.
+- `/Components`: This folder contains all the react functions that would make up the main pages of the web application
+- `/layout`: Contains the file that would become the main layout (appearance) to the rest of all the pages such as containing the header and footer
+- `/pages`: Consists of all the pages used in the web application 
+
+

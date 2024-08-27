@@ -30,6 +30,6 @@ To interact with the assignment files, the following steps are:
 - `/src`: Contains the important web application files.
 - `/Components`: This folder contains all the react functions that would make up the main pages of the web application
 - `/layout`: Contains the file that would become the main layout (appearance) to the rest of all the pages such as containing the header and footer
-- `/pages: Consists of all the pages used in the web application 
+- `/pages': Consists of all the pages used in the web application 
 
 

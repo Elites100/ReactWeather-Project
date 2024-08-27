@@ -7,6 +7,8 @@
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 
+![image](https://github.com/user-attachments/assets/2a0d979d-85b8-4bf5-bd4c-df55293a3e28)
+
 
 ## Introduction
 

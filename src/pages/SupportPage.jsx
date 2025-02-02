@@ -22,10 +22,6 @@ const SupportPage = () => {
         <h2 className="text-2xl font-semibold mb-4 text-center">Frequently Asked Questions</h2>
         <div className="text-left space-y-4">
           <div>
-            <h3 className="font-semibold">How do I reset my password?</h3>
-            <p>Click on "Forgot Password" on the login page and follow the instructions.</p>
-          </div>
-          <div>
             <h3 className="font-semibold">How can I contact support?</h3>
             <p>You can email us at support@example.com or call us at +1 (234) 567-890.</p>
           </div>

@@ -8,7 +8,7 @@ const Card = () => {
 
   useEffect(() => {
     const fetchWeather = async () => {
-      const apiBase = 'http://api.weatherapi.com/v1/current.json';
+      const apiBase = 'https://api.weatherapi.com/v1/current.json';
       const key = import.meta.env.VITE_WEATHER_API_KEY;
       const locations = ['Richmond', 'New York', 'Las Vegas', 'Tokyo', 'Ho Chi Minh City', 'Paris'];
 

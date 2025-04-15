@@ -25,7 +25,14 @@ const WeatherPage = () => {
         const apiUrl = `${apiBase}?key=${key}&q=${inputCity}&days=3`;
         const res = await fetch(apiUrl);
         const data = await res.json();
-        setWeatherData(data);
+        if (data.error) {
+          // Handle invalid location or any other error
+          alert(`${data.error.message} Showing weather for Richmond instead.`); // Alert the user about the error
+          setInputCity('Richmond')
+        } 
+        else {
+          setWeatherData(data);
+        }
       } catch (error) {
         console.log('Error fetching data', error);
       } finally {

@@ -7,7 +7,7 @@ import { Link, useLocation, useParams } from 'react-router-dom';
 
 const WeatherPage = () => {
   //const { city } = useParams(); used if the url was 'http://localhost:3000/weather/New%20York'
-  
+
   const location = useLocation(); // using the state to pass in 
   const { city } = location.state || {};
   const [inputCity, setInputCity] = useState(city || 'Richmond');
@@ -18,7 +18,7 @@ const WeatherPage = () => {
 
   useEffect(() => {
     const fetchForecast = async () => {
-      const apiBase = 'http://api.weatherapi.com/v1/forecast.json';
+      const apiBase = 'https://api.weatherapi.com/v1/forecast.json';
       const key = import.meta.env.VITE_WEATHER_API_KEY;
 
       try {
@@ -41,7 +41,7 @@ const WeatherPage = () => {
   }
 
   if (!weatherData) {
-    return(
+    return (
       <div className='App'>
         <header className='App-header'>
           <p>No data available</p>;
@@ -59,7 +59,7 @@ const WeatherPage = () => {
             <>
               <WeatherDisplay weatherData={weatherData} />
               <Link to={{ pathname: '/air-quality', state: { city: inputCity } }} className="btn btn-primary">
-                  Check Out Air Quality
+                Check Out Air Quality
               </Link>
             </>
           )}

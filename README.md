@@ -9,8 +9,10 @@
 
 
 - Live Demo
-[WeatherWave](react-weather-project-mu.vercel.app
-)
+
+[WeatherWave](https://react-weather-project-mu.vercel.app)
+
+
 - SCREENSHOTS
 ![image](https://github.com/user-attachments/assets/2a0d979d-85b8-4bf5-bd4c-df55293a3e28)
 ![image](https://github.com/user-attachments/assets/8b02cd3c-d03c-413e-893e-570329d1f2d0)

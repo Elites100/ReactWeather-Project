@@ -1,5 +1,7 @@
 # Weather Wave (VITE + REACTS) 
 
+[WeatherWave](https://react-weather-project-mu.vercel.app)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -8,9 +10,6 @@
 - [Folder Structure](#folder-structure)
 
 
-- Live Demo
-
-[WeatherWave](https://react-weather-project-mu.vercel.app)
 
 
 - SCREENSHOTS

@@ -10,16 +10,6 @@
 - [Folder Structure](#folder-structure)
 
 
-
-
-- SCREENSHOTS
-![image](https://github.com/user-attachments/assets/2a0d979d-85b8-4bf5-bd4c-df55293a3e28)
-![image](https://github.com/user-attachments/assets/8b02cd3c-d03c-413e-893e-570329d1f2d0)
-
-![image](https://github.com/user-attachments/assets/0d2a5c50-f123-4d09-bbe8-ffd89f66a34b)
-
-
-
 ## Introduction
 
 Weather Wave is a web application that provides users with accurate weather reports from any specific country, including forecasts of future days and air quality reports. 
@@ -44,4 +34,9 @@ To interact with the assignment files, the following steps are:
 - `/layout`: Contains the file that would become the main layout (appearance) to the rest of all the pages such as containing the header and footer
 - `/pages`: Consists of all the pages used in the web application 
 
+
+## SCREENSHOTS
+![image](https://github.com/user-attachments/assets/2a0d979d-85b8-4bf5-bd4c-df55293a3e28)
+![image](https://github.com/user-attachments/assets/8b02cd3c-d03c-413e-893e-570329d1f2d0)
+![image](https://github.com/user-attachments/assets/0d2a5c50-f123-4d09-bbe8-ffd89f66a34b)
 
